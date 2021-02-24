@@ -1,0 +1,15 @@
+{
+  "name": "morse",
+  "version": "1.0.0",
+  "description": "Morse code translator",
+  "main": "translator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Seb Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "jest": "^26.6.3"
+  }
+}
