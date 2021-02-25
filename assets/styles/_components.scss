@@ -7,6 +7,8 @@ textarea {
   resize: none;
   color: $colour-2;
   font-size: 2rem;
+  scrollbar-width: thin;
+  scrollbar-color: $colour-1 $colour-1;
   &:focus {
     outline: none;
   }

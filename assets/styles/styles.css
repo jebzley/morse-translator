@@ -24,6 +24,8 @@ textarea {
   resize: none;
   color: #fdfffc;
   font-size: 2rem;
+  scrollbar-width: thin;
+  scrollbar-color: #7b2cbf #7b2cbf;
 }
 textarea:focus {
   outline: none;
