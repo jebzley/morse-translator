@@ -1,6 +1,3 @@
-- name: Run Jest
-  uses: stefanoeb/jest-action@1.0.4
-  
 name: Tests
 
 on: [push]
