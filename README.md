@@ -15,6 +15,8 @@ The purpose of this project was to create it with test-driven development method
 * SCSS
 * HTML
 * Jest
+* Github Actions
+
 ### Design
 
 I wanted this to be as clean and simple as possible - it is simply a text input area and an output area, and thought went in to make it obvious what the user needs to do when presented with this program - as such I chose have large, readable instructions onscreen and also chose to make the output display immediately on typing rather than clicking a button to generate the output. One clickable button in the output field plays the output as audio using either TTS or a series of beeps, depending on whether it is Morse or English.
