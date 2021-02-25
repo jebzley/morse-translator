@@ -3,7 +3,7 @@ A Morse Code to English, or English to Morse Code translator.
 
 Created on Week 5, day 3 of my software development course at _nology, this simple Javascript/HTML translator will receive text input, discern whether it is English or Morse, and translate accordingly. 
 
-The purpose of this project was to create it with test-driven development methodology, where tests are written first and functions are made to pass those tests.
+The purpose of this project was to create it with test-driven development methodology, where tests are written first and functions are made to pass those tests. It also provided a chance to try integrating Continuous Integration pipelines, running Jest as a Github action every time I push a commit.
 
 ## General Info
 
@@ -176,4 +176,3 @@ If given more than a day I'd like to -
 
 * Create a mobile app
 * Translate to/from other cyphers
-* Try out some continuous integration pipeline
