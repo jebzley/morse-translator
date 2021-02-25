@@ -1,3 +1,5 @@
+![Passing tests](./assets/img/readme_head.png)
+
 # Morse Translator
 A Morse Code to English, or English to Morse Code translator.
 
