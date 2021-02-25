@@ -1,5 +1,5 @@
-textarea{
-  font-family: sans-serif;
+textarea {
+  font-family: "Poppins", sans-serif;
   width: 90%;
   height: 90%;
   background: transparent;
@@ -7,7 +7,7 @@ textarea{
   resize: none;
   color: $colour-2;
   font-size: 2rem;
-  &:focus{
+  &:focus {
     outline: none;
   }
 }

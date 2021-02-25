@@ -117,8 +117,8 @@ export const translationKey = {
   '"': ".-..-.",
   $: "...-..-",
   "@": ".--.-.",
-  " ": "/", 
-  "\n": "/"
+  " ": "/",
+  "\n": "/",
 };
 
 export const parseEnglish = (input, translationKey) => {
@@ -138,36 +138,36 @@ export const parseMorse = (input, translationKey) => {
     if (Object.values(translationKey).indexOf(symbol) != -1) {
       output.push(symbol);
     }
-  })
-  return output.join(' ');
-}
+  });
+  return output.join(" ");
+};
 
 export const translateMorseToEnglish = (input, translationKey) => {
   const processedInput = parseMorse(input, translationKey);
   const englishOutput = processedInput.split(" ").map((symbol) => {
-    return Object.keys(translationKey).find(letter => translationKey[letter] === symbol);
-  })
-  return englishOutput.join('');
+    return Object.keys(translationKey).find(
+      (letter) => translationKey[letter] === symbol
+    );
+  });
+  return englishOutput.join("");
 };
 
 export const translateEnglishToMorse = (input, translationKey) => {
   const processedInput = parseEnglish(input, translationKey);
-  const morseOutput = processedInput.split('').map(char => {
+  const morseOutput = processedInput.split("").map((char) => {
     return translationKey[char];
-  })
-  return morseOutput.join(' ');
+  });
+  return morseOutput.join(" ");
 };
 
 export const formatOutput = (stringForScreen) => {
   return stringForScreen
     .split("")
     .map((digit) => {
-      if (digit == ".")
-        return (digit = '<span class="display__dot">.</span>');
+      if (digit == ".") return (digit = '<span class="display__dot">.</span>');
       else if (digit == "/")
         return (digit = '<span class="display__slash">/</span>');
       else return digit;
-    }
-    )
+    })
     .join("");
 };

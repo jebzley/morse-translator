@@ -1,4 +1,21 @@
 $black: #011627;
 $colour-1: #7b2cbf;
 $colour-2: #fdfffc;
-$colour-3: #BEC5C7;
+$colour-3: #bec5c7;
+
+h1 {
+  color: $colour-1;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 0.9;
+  margin-bottom: -15px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+}

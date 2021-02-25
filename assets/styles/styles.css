@@ -1,5 +1,22 @@
+h1 {
+  color: #7b2cbf;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 0.9;
+  margin-bottom: -15px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
 textarea {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 90%;
   height: 90%;
   background: transparent;
@@ -14,7 +31,7 @@ textarea:focus {
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -37,14 +54,6 @@ main {
   color: #011627;
   width: 300px;
   margin-left: 50px;
-}
-.info h1 {
-  color: #7b2cbf;
-  font-weight: bolder;
-  font-size: 3rem;
-}
-.info p {
-  font-size: 2rem;
 }
 
 .translator {
@@ -101,5 +110,5 @@ main {
 }
 
 .display__slash {
-  color: #BEC5C7;
+  color: #bec5c7;
 }/*# sourceMappingURL=styles.css.map */

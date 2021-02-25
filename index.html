@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Morse Translator</title>
-  <script type="module" src="./assets/js/translator.js"></script>
-  <script type="module" src="./assets/js/scripts.js" async defer></script>
-  <link rel="stylesheet" href="./assets/styles/styles.css">
-</head>
-<body>
-  <!-- <div class="translator__title"><h1>Morse/English</h1>
-    <h3>Type some English or some Morse code</h3>
-      <h4>Separate words in Morse with /</h4></div>
-       -->
-  <main>
-    <div class="translator" id="translator-container">
-      <div class="translator__input">
-        <textarea id="input-area" placeholder = "Type some English or Morse"></textarea>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Translator</title>
+    <script type="module" src="./assets/js/translator.js"></script>
+    <script type="module" src="./assets/js/scripts.js" async defer></script>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="translator" id="translator-container">
+        <div class="translator__input">
+          <textarea
+            id="input-area"
+            placeholder="Type some English or Morse"
+          ></textarea>
+        </div>
+        <div class="translator__output">
+          <p id="output-area"></p>
+        </div>
       </div>
-    <div class="translator__output">
-      <p id="output-area"></p>
-    </div>
-  </div>
-  <div class="info">
-    <h1>Morse Translator</h1>
-    <p>Enter text in English or Morse and see the translated output.<br>Use <span class="display__dot">spaces</span> to separate letters and <span class="display__dot">/</span> to separate words in Morse.</p>
-  </div>
-  </main>
-  
-</body>
+      <div class="info">
+        <h1>Morse Translator</h1>
+        <h3>-- --- <span class="display__dot">.</span>-<span class="display__dot">.</span> <span class="display__dot">...</span> <span class="display__dot">.</span> <span class="display__slash">/</span> - <span class="display__dot">.</span>-<span class="display__dot">.</span> <span class="display__dot">.</span>- -<span class="display__dot">.</span> <span class="display__dot">...</span> <span class="display__dot">.</span>-<span class="display__dot">..</span> <span class="display__dot">.</span>- - --- <span class="display__dot">.</span>-<span class="display__dot">.</span></h3>
+        <p>
+          Enter text in English or Morse and see the translated output.<br />Use
+          <span class="display__dot">spaces</span> to separate letters and
+          <span class="display__dot">/</span> to separate words in Morse.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
